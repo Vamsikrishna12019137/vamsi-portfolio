@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Palli Venkata Vamsi Krishna | Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      scroll-behavior: smooth;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #0d1117;
+      color: #e6edf3;
+      line-height: 1.6;
+    }
+
+    nav {
+      background: #161b22;
+      padding: 15px 0;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 999;
+    }
+
+    nav a {
+      color: #58a6ff;
+      text-decoration: none;
+      margin: 0 20px;
+      font-weight: bold;
+      font-size: 18px;
+    }
+
+    header {
+      text-align: center;
+      padding: 60px 20px;
+      background: #0d1117;
+    }
+
+    header img {
+      border-radius: 50%;
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border: 4px solid #58a6ff;
+      margin-bottom: 20px;
+    }
+
+    h1 span {
+      color: #58a6ff;
+    }
+
+    .social-links a {
+      color: #58a6ff;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    h2 {
+      font-size: 28px;
+      color: #58a6ff;
+      margin-bottom: 10px;
+    }
+
+    /* Skills */
+    .skills-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 20px;
+    }
+
+    .skills-list span {
+      background: #21262d;
+      color: #c9d1d9;
+      padding: 10px 15px;
+      border-radius: 20px;
+      font-size: 14px;
+    }
+
+    /* Projects */
+    .project-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 40px;
+      flex-wrap: wrap;
+      gap: 20px;
+      background: #161b22;
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    .project-img {
+      width: 300px;
+      max-width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+      flex: 1 1 300px;
+    }
+
+    .project-text {
+      flex: 2 1 400px;
+    }
+
+    .project-text h3 {
+      color: #58a6ff;
+      margin-bottom: 10px;
+    }
+
+    .project-text p {
+      color: #c9d1d9;
+      font-size: 16px;
+    }
+
+    /* CTA */
+    .cta {
+      background-color: #161b22;
+      text-align: center;
+      padding: 60px 20px;
+      margin-top: 60px;
+    }
+
+    .cta h2 {
+      color: #58a6ff;
+      margin-bottom: 15px;
+    }
+
+    .cta p {
+      margin-bottom: 25px;
+    }
+
+    .cta a {
+      display: inline-block;
+      background: #58a6ff;
+      color: #0d1117;
+      padding: 12px 25px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    footer {
+      background: #0d1117;
+      color: #8b949e;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+    }
+
+    footer a {
+      color: #58a6ff;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+
+    @media (max-width: 768px) {
+      .project-row {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      nav a {
+        display: block;
+        margin: 10px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+  </nav>
+
+  <!-- Header -->
+  <header>
+    <img src="vimage.jpg" alt="Vamsi Krishna">
+    <h1>Hi There 👋🏽, I'm <span>Palli Venkata Vamsi Krishna</span></h1>
+    <p>🚀 Embedded Engineer blending hardware and software to build smarter solutions.</p>
+    <div class="social-links">
+      <a href="https://github.com/Vamsikrishna12019137" target="_blank">GitHub</a> |
+      <a href="https://www.linkedin.com/in/venkatavamsikrishnapalli/" target="_blank">LinkedIn</a>
+    </div>
+  </header>
+
+  <!-- About -->
+  <section id="about" class="container">
+    <h2>About Me</h2>
+    <p>
+      I'm an embedded engineer with a zest for technology and innovation. Blending both software and hardware expertise, I'm all about transforming ideas into smart solutions.
+    </p>
+    <p>
+      At Techvanto Academy, I developed an autonomous vehicle using Arduino and sensors, enhancing my system design and analytical skills. I'm skilled in Java, C++, SQL, and Embedded C, and certified on HackerRank with 4-star ratings in Java, SQL, and C++.
+    </p>
+    <p>
+      With a problem-solving mindset and a passion for learning, I actively engage in team-building activities like NSS. Let’s connect and innovate together! 🌟
+    </p>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="container">
+    <h2>Skills</h2>
+    <div class="skills-list">
+      <span>HTML & CSS</span>
+      <span>JavaScript</span>
+      <span>C++</span>
+      <span>Java</span>
+      <span>Embedded C</span>
+      <span>SQL</span>
+      <span>MATLAB</span>
+      <span>Proteus</span>
+      <span>TinkerCAD</span>
+      <span>Arduino</span>
+      <span>Linux</span>
+      <span>System Verilog</span>
+      <span>LabVIEW</span>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="container">
+    <h2>MY PROJECTS</h2>
+    <p style="margin-bottom: 30px; color: #8b949e;">Somethings I Built</p>
+
+    <div class="project-row">
+      <img src="vehicle_parking.jpg" alt="Automatic Parking" class="project-img">
+      <div class="project-text">
+        <h3>🚗 Automatic Vehicle Parking System</h3>
+        <p>Designed using Arduino and ultrasonic sensors for efficient space management and automation in parking lots.</p>
+      </div>
+    </div>
+
+    <div class="project-row">
+      <img src="home_automation.jpg" alt="Home Automation" class="project-img">
+      <div class="project-text">
+        <h3>🏠 Home Automation System</h3>
+        <p>Implemented motion detection and smart appliance control using PIR sensors for energy-saving automation.</p>
+      </div>
+    </div>
+
+    <div class="project-row">
+      <img src="cricket_management.jpg" alt="Cricket Management" class="project-img">
+      <div class="project-text">
+        <h3>🏏 Cricket World Cup Management System</h3>
+        <p>Database-driven web app using Oracle SQL and a UI to manage team, score, and tournament data.</p>
+      </div>
+    </div>
+
+    <div class="project-row">
+      <img src="payroll.jpg" alt="Payroll System" class="project-img">
+      <div class="project-text">
+        <h3>🧾 Payroll Management System</h3>
+        <p>Developed with Java & JDBC for calculating salary, tax, and attendance tracking in small businesses.</p>
+      </div>
+    </div>
+
+    <div class="project-row">
+      <img src="autonomous_vehicle.jpg" alt="Autonomous Vehicle" class="project-img">
+      <div class="project-text">
+        <h3>🤖 AI-Based Autonomous Vehicle</h3>
+        <p>Integrated sensors and logic to create a real-time self-navigating vehicle using embedded systems and AI.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta">
+    <h2>HAVE A PROJECT? OR JUST LOOKING TO HIRE?</h2>
+    <p>Let's Work Together. Feel free to reach out if you're looking to hire, just want to connect or see if we can build something amazing together.</p>
+    <a href="mailto:Vamsikrishna2517@gmail.com">GET IN TOUCH →</a>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Palli Venkata Vamsi Krishna</p>
+    <a href="https://linkedin.com/in/vamsi-krishna" target="_blank">LinkedIn</a>
+    <a href="https://github.com/Vamsikrishna12019137" target="_blank">GitHub</a>
+    <a href="#">Go to Top ⇧</a>
+  </footer>
+
+</body>
+</html>
